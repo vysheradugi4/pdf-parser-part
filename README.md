@@ -4,19 +4,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Installation
 
-1. Install pdf.js library into dependencies section.  
+Install pdf.js library into dependencies section.  
    
 `npm install --save pdfjs-dist`  
   
   
-2. Create folder `zlib` in `node_modules` folder  
+Create folder `zlib` in `node_modules` folder  
 
 Into `node_modules/zlib` folder create two files:  
   
     1. index.js (empty)  
     2. package.json  
 
-3. Content of package.json:  
+Content of package.json:  
   
 `{`  
 `    "name": "zlib",`  
@@ -25,9 +25,7 @@ Into `node_modules/zlib` folder create two files:
 
 We created empty not used zlib library for resolving dependencies of pdf.js
 
-4. Put file `pdf.worker.entry.js` from `node_modules` `src/assets`
-
-
+Put file `pdf.worker.entry.js` from `node_modules/pdfjs-dist/build/pdf.worker.entry.js` to `src/assets`  
 
 
 ## Development server
