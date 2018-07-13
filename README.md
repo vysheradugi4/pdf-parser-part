@@ -4,8 +4,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Installation
 
-Install pdf.js library.
-`npm install --save pdfjs-dist`
+Install pdf.js library into dependencies section.  
+   
+`npm install --save pdfjs-dist`  
+  
+  
+Create folder `zlib` in `node_modules` folder  
+
+Into `node_modules/zlib` folder create two files:  
+    1. index.js
+    2. package.json
+
 
 
 ## Development server
