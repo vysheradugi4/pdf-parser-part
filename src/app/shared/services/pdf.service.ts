@@ -8,7 +8,7 @@ export class PdfService {
 
     constructor() {
         // Set worker.
-        pdfjs.GlobalWorkerOptions.workerSrc = 'assets/pdf.worker.js';
+        pdfjs.GlobalWorkerOptions.workerSrc = 'assets/pdf.worker.entry.js';
     }
 
     parse(pdfUrl) {
