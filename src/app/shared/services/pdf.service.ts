@@ -43,6 +43,7 @@ export class PdfService {
         }
 
         return Promise.all(countPromises).then(pages => {
+
           // Join arrays with pages to one array.
           return pages.reduce((a, b) => [...a, ...b]);
         });
