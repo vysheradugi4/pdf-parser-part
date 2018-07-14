@@ -4,6 +4,36 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Installation
 
+Clone example project from github
+
+`git clone https://github.com/vysheradugi4/pdf-parser-part.git`  
+
+Go to project folder  
+  
+`cd pdf-parser-part`  
+  
+Install dependencies  
+  
+`npm install`  
+  
+Create folder `zlib` in `node_modules` folder  
+
+Into `node_modules/zlib` folder create two files:  
+  
+    1. index.js (empty)  
+    2. package.json  
+
+Content of package.json:  
+  
+`{`  
+`    "name": "zlib",`  
+`    "version": "1.0.0"`  
+`}`
+
+We created empty not used zlib library for resolving dependencies of pdf.js  
+  
+## For update other project
+
 Install pdf.js library into dependencies section.  
    
 `npm install --save pdfjs-dist`  
